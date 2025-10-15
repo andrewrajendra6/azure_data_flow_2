@@ -1,0 +1,12 @@
+{
+	"name": "DataFactoryMP2LinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://azureminiproject2.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDlCQzUxN0M1LUE4NTYtNEQ0Ri1BNTM1LTY5MkM5RkM1NkQ5OV8wYWE0ZjM1NC05ODAxLTQ5MjEtOWYxYi0yZjc2YTU1NjE2NmQiDQp9"
+		}
+	}
+}
